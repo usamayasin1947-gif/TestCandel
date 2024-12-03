@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A06676D2CFDECFA006A48C6 /* TestCandatelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A06676C2CFDECFA006A48C6 /* TestCandatelApp.swift */; };
+		4A0667712CFDECFD006A48C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0667702CFDECFD006A48C6 /* Assets.xcassets */; };
+		4A0667742CFDECFD006A48C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0667732CFDECFD006A48C6 /* Preview Assets.xcassets */; };
+		4A06677E2CFDED5C006A48C6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A06677D2CFDED5C006A48C6 /* LoginView.swift */; };
+		4A0667802CFDED9E006A48C6 /* PassKeySignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A06677F2CFDED9E006A48C6 /* PassKeySignIn.swift */; };
+		4A0667852CFDEE2A006A48C6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0667842CFDEE2A006A48C6 /* UserModel.swift */; };
+		4A0667872CFDEE63006A48C6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0667862CFDEE63006A48C6 /* Extensions.swift */; };
+		4A0667892CFDEEC8006A48C6 /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0667882CFDEEC8006A48C6 /* CustomText.swift */; };
+		4A06678B2CFDEF16006A48C6 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A06678A2CFDEF16006A48C6 /* CustomTextField.swift */; };
+		4A06678D2CFDEF26006A48C6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A06678C2CFDEF26006A48C6 /* CustomButton.swift */; };
+		4A06678F2CFDEFD8006A48C6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A06678E2CFDEFD8006A48C6 /* LoginViewModel.swift */; };
+		4A0667912CFDF264006A48C6 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0667902CFDF264006A48C6 /* KeychainManager.swift */; };
+		4A0667932CFDFE8A006A48C6 /* BckgroundContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0667922CFDFE8A006A48C6 /* BckgroundContent.swift */; };
+		4A9122122CFEBEFA0007D22E /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9122112CFEBEFA0007D22E /* SnackBar.swift */; };
+		4A9122162CFEC8920007D22E /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9122152CFEC8920007D22E /* DashboardView.swift */; };
+		4A9122192CFED6800007D22E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9122182CFED6800007D22E /* HeaderView.swift */; };
+		4A91221B2CFED69D0007D22E /* AppointmentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91221A2CFED69D0007D22E /* AppointmentCardView.swift */; };
+		4A91221D2CFED6C20007D22E /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91221C2CFED6C20007D22E /* ServicesView.swift */; };
+		4A9122262CFED76A0007D22E /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9122252CFED76A0007D22E /* DashboardModel.swift */; };
+		4A9122282CFEDA230007D22E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9122272CFEDA230007D22E /* MainView.swift */; };
+		4A91222A2CFEF2F10007D22E /* RouteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9122292CFEF2F10007D22E /* RouteManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A0667692CFDECFA006A48C6 /* TestCandatel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCandatel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A06676C2CFDECFA006A48C6 /* TestCandatelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCandatelApp.swift; sourceTree = "<group>"; };
+		4A0667702CFDECFD006A48C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A0667732CFDECFD006A48C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A06677D2CFDED5C006A48C6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4A06677F2CFDED9E006A48C6 /* PassKeySignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassKeySignIn.swift; sourceTree = "<group>"; };
+		4A0667842CFDEE2A006A48C6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		4A0667862CFDEE63006A48C6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4A0667882CFDEEC8006A48C6 /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
+		4A06678A2CFDEF16006A48C6 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		4A06678C2CFDEF26006A48C6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		4A06678E2CFDEFD8006A48C6 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		4A0667902CFDF264006A48C6 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		4A0667922CFDFE8A006A48C6 /* BckgroundContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BckgroundContent.swift; sourceTree = "<group>"; };
+		4A9122112CFEBEFA0007D22E /* SnackBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBar.swift; sourceTree = "<group>"; };
+		4A9122152CFEC8920007D22E /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		4A9122182CFED6800007D22E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		4A91221A2CFED69D0007D22E /* AppointmentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentCardView.swift; sourceTree = "<group>"; };
+		4A91221C2CFED6C20007D22E /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		4A9122252CFED76A0007D22E /* DashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
+		4A9122272CFEDA230007D22E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4A9122292CFEF2F10007D22E /* RouteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0667662CFDECFA006A48C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0667602CFDECFA006A48C6 = {
+			isa = PBXGroup;
+			children = (
+				4A06676B2CFDECFA006A48C6 /* TestCandatel */,
+				4A06676A2CFDECFA006A48C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A06676A2CFDECFA006A48C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0667692CFDECFA006A48C6 /* TestCandatel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A06676B2CFDECFA006A48C6 /* TestCandatel */ = {
+			isa = PBXGroup;
+			children = (
+				4A91222B2CFEF3080007D22E /* RouteManager */,
+				4A0667822CFDEDBF006A48C6 /* UIs */,
+				4A06677C2CFDED45006A48C6 /* Models */,
+				4A06677B2CFDED28006A48C6 /* Views */,
+				4A06677A2CFDED23006A48C6 /* ViewModels */,
+				4A06676C2CFDECFA006A48C6 /* TestCandatelApp.swift */,
+				4A0667702CFDECFD006A48C6 /* Assets.xcassets */,
+				4A0667722CFDECFD006A48C6 /* Preview Content */,
+			);
+			path = TestCandatel;
+			sourceTree = "<group>";
+		};
+		4A0667722CFDECFD006A48C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4A0667732CFDECFD006A48C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A06677A2CFDED23006A48C6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4A06678E2CFDEFD8006A48C6 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4A06677B2CFDED28006A48C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A9122132CFEC85E0007D22E /* Authentication */,
+				4A9122142CFEC86C0007D22E /* Dashboard */,
+				4A9122272CFEDA230007D22E /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4A06677C2CFDED45006A48C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4A9122202CFED7360007D22E /* LocalModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4A0667812CFDEDA7006A48C6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4A0667862CFDEE63006A48C6 /* Extensions.swift */,
+				4A0667902CFDF264006A48C6 /* KeychainManager.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4A0667822CFDEDBF006A48C6 /* UIs */ = {
+			isa = PBXGroup;
+			children = (
+				4A0667832CFDEDCB006A48C6 /* Components */,
+				4A0667812CFDEDA7006A48C6 /* Extensions */,
+			);
+			path = UIs;
+			sourceTree = "<group>";
+		};
+		4A0667832CFDEDCB006A48C6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4A0667882CFDEEC8006A48C6 /* CustomText.swift */,
+				4A06678A2CFDEF16006A48C6 /* CustomTextField.swift */,
+				4A06678C2CFDEF26006A48C6 /* CustomButton.swift */,
+				4A0667922CFDFE8A006A48C6 /* BckgroundContent.swift */,
+				4A9122112CFEBEFA0007D22E /* SnackBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4A9122132CFEC85E0007D22E /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				4A06677D2CFDED5C006A48C6 /* LoginView.swift */,
+				4A06677F2CFDED9E006A48C6 /* PassKeySignIn.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		4A9122142CFEC86C0007D22E /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				4A9122152CFEC8920007D22E /* DashboardView.swift */,
+				4A9122172CFED66C0007D22E /* DashboardSubViews */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		4A9122172CFED66C0007D22E /* DashboardSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				4A9122182CFED6800007D22E /* HeaderView.swift */,
+				4A91221A2CFED69D0007D22E /* AppointmentCardView.swift */,
+				4A91221C2CFED6C20007D22E /* ServicesView.swift */,
+			);
+			path = DashboardSubViews;
+			sourceTree = "<group>";
+		};
+		4A9122202CFED7360007D22E /* LocalModel */ = {
+			isa = PBXGroup;
+			children = (
+				4A9122242CFED75B0007D22E /* Auth */,
+				4A9122232CFED7530007D22E /* Dashboard */,
+			);
+			path = LocalModel;
+			sourceTree = "<group>";
+		};
+		4A9122232CFED7530007D22E /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				4A9122252CFED76A0007D22E /* DashboardModel.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		4A9122242CFED75B0007D22E /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				4A0667842CFDEE2A006A48C6 /* UserModel.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		4A91222B2CFEF3080007D22E /* RouteManager */ = {
+			isa = PBXGroup;
+			children = (
+				4A9122292CFEF2F10007D22E /* RouteManager.swift */,
+			);
+			path = RouteManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0667682CFDECFA006A48C6 /* TestCandatel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0667772CFDECFD006A48C6 /* Build configuration list for PBXNativeTarget "TestCandatel" */;
+			buildPhases = (
+				4A0667652CFDECFA006A48C6 /* Sources */,
+				4A0667662CFDECFA006A48C6 /* Frameworks */,
+				4A0667672CFDECFA006A48C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestCandatel;
+			productName = TestCandatel;
+			productReference = 4A0667692CFDECFA006A48C6 /* TestCandatel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0667612CFDECFA006A48C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					4A0667682CFDECFA006A48C6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 4A0667642CFDECFA006A48C6 /* Build configuration list for PBXProject "TestCandatel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A0667602CFDECFA006A48C6;
+			productRefGroup = 4A06676A2CFDECFA006A48C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0667682CFDECFA006A48C6 /* TestCandatel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A0667672CFDECFA006A48C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0667742CFDECFD006A48C6 /* Preview Assets.xcassets in Resources */,
+				4A0667712CFDECFD006A48C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0667652CFDECFA006A48C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0667892CFDEEC8006A48C6 /* CustomText.swift in Sources */,
+				4A91222A2CFEF2F10007D22E /* RouteManager.swift in Sources */,
+				4A9122282CFEDA230007D22E /* MainView.swift in Sources */,
+				4A0667852CFDEE2A006A48C6 /* UserModel.swift in Sources */,
+				4A91221B2CFED69D0007D22E /* AppointmentCardView.swift in Sources */,
+				4A06678D2CFDEF26006A48C6 /* CustomButton.swift in Sources */,
+				4A0667872CFDEE63006A48C6 /* Extensions.swift in Sources */,
+				4A9122262CFED76A0007D22E /* DashboardModel.swift in Sources */,
+				4A0667932CFDFE8A006A48C6 /* BckgroundContent.swift in Sources */,
+				4A06677E2CFDED5C006A48C6 /* LoginView.swift in Sources */,
+				4A06678B2CFDEF16006A48C6 /* CustomTextField.swift in Sources */,
+				4A0667912CFDF264006A48C6 /* KeychainManager.swift in Sources */,
+				4A0667802CFDED9E006A48C6 /* PassKeySignIn.swift in Sources */,
+				4A06678F2CFDEFD8006A48C6 /* LoginViewModel.swift in Sources */,
+				4A9122122CFEBEFA0007D22E /* SnackBar.swift in Sources */,
+				4A91221D2CFED6C20007D22E /* ServicesView.swift in Sources */,
+				4A9122162CFEC8920007D22E /* DashboardView.swift in Sources */,
+				4A06676D2CFDECFA006A48C6 /* TestCandatelApp.swift in Sources */,
+				4A9122192CFED6800007D22E /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A0667752CFDECFD006A48C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A0667762CFDECFD006A48C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A0667782CFDECFD006A48C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestCandatel/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.TestCandatel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A0667792CFDECFD006A48C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestCandatel/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.TestCandatel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0667642CFDECFA006A48C6 /* Build configuration list for PBXProject "TestCandatel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0667752CFDECFD006A48C6 /* Debug */,
+				4A0667762CFDECFD006A48C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0667772CFDECFD006A48C6 /* Build configuration list for PBXNativeTarget "TestCandatel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0667782CFDECFD006A48C6 /* Debug */,
+				4A0667792CFDECFD006A48C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0667612CFDECFA006A48C6 /* Project object */;
+}
