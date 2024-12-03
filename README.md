@@ -15,7 +15,7 @@ Xcode (latest version)
 iOS 15.5 or later
 
 **Installation**
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/usamayasin1947-gif/TestCandel.git
 Open the project in Xcode:open TestCandel.xcodeproj
 
 **Features and Functionality**
