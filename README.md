@@ -3,9 +3,12 @@ SwiftUI Login and Dashboard App
 This is a SwiftUI-based iOS app featuring a login screen with email and password validation, Passkey sign-in functionality, and a dashboard with static data.
 
 **Features**
-Login Screen UI: The login screen includes text fields for email and password, and a button to sign in.\n
+Login Screen UI: The login screen includes text fields for email and password, and a button to sign in.
+
 Passkey Sign-In: An option to sign in using Passkey (static data for now).
+
 Dashboard Main Screen: Once logged in, the user is directed to the main dashboard with static content.
+
 Validation: Email and password validation logic on the login screen
 
 
